@@ -1,5 +1,5 @@
 import { Formiz, useForm } from "@formiz/core";
-import { Button, Input } from "@nextui-org/react";
+import { Button, Input, Select, } from "@nextui-org/react";
 import { User } from "lucide-react";
 
 const AddJobForm = () => {
@@ -29,6 +29,8 @@ const AddJobForm = () => {
                     labelPlacement="outside"
                     endContent={<User/>}
                 />
+                {/* <Select></Select> */}
+                
                 <Button color="primary">
                     Save
                 </Button>
